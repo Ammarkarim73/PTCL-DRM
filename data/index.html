@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CLI MASTER</title>
+    <link rel="stylesheet" href="./style.css" />
+	<link rel="shortcut icon" href="./ptcl logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./ptcl logo.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#FFFFFF" />
+    <meta name="theme-color" content="#FFFFFF" />
+</head>
+
+<body id="body">
+    Pakistan Telecommunication Company Limited
+    <img id="load" class="loader" src="./loadcat.gif" width="500" height="600" />
+    
+    <div id="block" class="hidden"><!--class="hidden"-->
+        <div id="h1" class="flex">
+
+            <h1>	
+                CLI MASTER
+            </h1>
+        
+            <div id="signout">signout</div>
+        </div>
+
+
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="div">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for NUMBER or ADDRESS.." title="Type a number">
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div >
+        <p id="p"></p>
+        <ol id="ol">
+
+        </ol>
+    </div>
+    <br />
+    <br />
+
+    <div id="buttons" class="xyz">
+        <button id="a" onclick="btngreen(id); changeTable(table0);" class="btn_navigation" >APL-C/15</button>
+        <button id="b" onclick="btngreen(id); changeTable(table1);" class="btn_navigation" >APL-C/14</button>
+        <button id="c" onclick="btngreen(id); changeTable(table2);" class="btn_navigation" >APL-C/09</button>
+        <button id="d" onclick="btngreen(id); changeTable(table3);" class="btn_navigation" >APL-C/12</button>
+        <button id="e" onclick="btngreen(id); changeTable(table4);" class="btn_navigation" >BLT-08</button>
+    </div>
+
+    <hr />
+
+    <div id="table">
+
+        
+        <center id="table0">
+                <p id="cabinetName"> APL-C/15 </p>
+                <p>Location:<input id="location0" type="text" value="" /></p>
+            
+            
+            <table id="tableData0" border="1" width="1350px">
+            
+            
+                <thead>
+                    <th>DP #</th>
+                    <th colspan="2">TAG PIN</th>
+                    <th>T/NO</th>
+                    <th>PRY PAIR</th>
+                    <th>N.E</th>
+                    <th>ADDRESS</th>
+                    <th>MODEM ID</th>
+                    <th>CUSTOMER #</th>
+                </thead>
+            
+                
+            
+            </table>
+            
+            </center>
+
+
+        <center id="table1" class="hidden">
+                <p id="cabinetName"> APL-C/14 </p>
+                <p>Location:<input id="location1" type="text" value="" /></p>
+
+            
+            
+            <table id="tableData1" border="1" width="1350px">
+            
+            
+                <thead>
+                    <th>DP #</th>
+                    <th colspan="2">TAG PIN</th>
+                    <th>T/NO</th>
+                    <th>PRY PAIR</th>
+                    <th>N.E</th>
+                    <th>ADDRESS</th>
+                    <th>MODEM ID</th>
+                    <th>CUSTOMER #</th>
+                </thead>
+            
+                
+            
+            </table>
+            
+            </center>
+
+
+        <center id="table2" class="hidden">
+                <p id="cabinetName"> APL-C/09 </p>
+                <p>Location:<input id="location2" type="text" value="" /></p>
+
+            
+            
+            <table id="tableData2" border="1" width="1350px">
+            
+            
+                <thead>
+                    <th>DP #</th>
+                    <th colspan="2">TAG PIN</th>
+                    <th>T/NO</th>
+                    <th>PRY PAIR</th>
+                    <th>N.E</th>
+                    <th>ADDRESS</th>
+                    <th>MODEM ID</th>
+                    <th>CUSTOMER #</th>
+                </thead>
+            
+                
+            
+            </table>
+            
+            </center>
+
+        <center id="table3" class="hidden">
+                <p id="cabinetName"> APL-C/12 </p>
+                <p>Location:<input id="location3" type="text" value="" /></p>
+
+            
+            
+            <table id="tableData3" border="1" width="1350px">
+            
+            
+                <thead>
+                    <th>DP #</th>
+                    <th colspan="2">TAG PIN</th>
+                    <th>T/NO</th>
+                    <th>PRY PAIR</th>
+                    <th>N.E</th>
+                    <th>ADDRESS</th>
+                    <th>MODEM ID</th>
+                    <th>CUSTOMER #</th>
+                </thead>
+            
+                
+            
+            </table>
+            
+            <br />
+            <br />
+            
+            </center>
+
+        <center id="table4" class="hidden">
+                <p id="cabinetName"> BLT-08 </p>
+                <p>Location:<input id="location4" type="text" value="" /></p>
+
+            
+            
+            <table id="tableData4" border="1" width="1350px">
+            
+            
+                <thead>
+                    <th>DP #</th>
+                    <th colspan="2">TAG PIN</th>
+                    <th>T/NO</th>
+                    <th>PRY PAIR</th>
+                    <th>N.E</th>
+                    <th>ADDRESS</th>
+                    <th>MODEM ID</th>
+                    <th>CUSTOMER #</th>
+                </thead>
+            
+                
+            
+            </table>
+            
+            <br />
+            <br />
+            
+            </center>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module" src="./script.js"></script>
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+</html>
