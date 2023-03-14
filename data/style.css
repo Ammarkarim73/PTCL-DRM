@@ -185,22 +185,27 @@ width: 90%;
 
 .yellow{
     background-color: rgba(255, 255, 0, 0.849);
+    font-weight: bolder;
 }
 
 .white{
     background-color: #fff;
+    font-weight: bolder;
 }
 
 .green{
-    background-color: green;
+    background-color: lightgreen;
+    font-weight: bolder;
 }
 
 .blue{
-    background-color: blue;;
+    background-color: lightblue;
+    font-weight: bolder;
 }
 
 .red{
-    background-color: red;;
+    background-color: rgb(230, 26, 26);
+    font-weight: bolder;
 }
 
 
