@@ -742,10 +742,9 @@ window.changeTable = changeTable;
             doc.data().input3 == "w" ? "input green" :
             doc.data().input3 == "W"?"input green" :
 
-            isNaN(doc.data().input66) == false?"input green" : 'input'
+            isNaN(doc.data().input3) == false?"input green" : 'input'
                 
     
-    // tag Pin Color
 }" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
 
     <td><input id="input3" class="input" type="text" value="${doc.data().input4}" /></td>
@@ -776,10 +775,8 @@ window.changeTable = changeTable;
         doc.data().input10 == "w" ? "input green" :
         doc.data().input10 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input10) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input11}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input12}" /></td>
@@ -809,10 +806,8 @@ window.changeTable = changeTable;
         doc.data().input17 == "w" ? "input green" :
         doc.data().input17 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input17) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input18}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input19}" /></td>
@@ -842,10 +837,8 @@ window.changeTable = changeTable;
         doc.data().input24 == "w" ? "input green" :
         doc.data().input24 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input24) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input25}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input26}" /></td>
@@ -875,10 +868,8 @@ window.changeTable = changeTable;
         doc.data().input31 == "w" ? "input green" :
         doc.data().input31 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input31) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input32}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input33}" /></td>
@@ -908,10 +899,8 @@ window.changeTable = changeTable;
         doc.data().input38 == "w" ? "input green" :
         doc.data().input38 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input38) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input39}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input40}" /></td>
@@ -941,10 +930,8 @@ window.changeTable = changeTable;
         doc.data().input45 == "w" ? "input green" :
         doc.data().input45 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input45) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input46}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input47}" /></td>
@@ -974,10 +961,8 @@ window.changeTable = changeTable;
         doc.data().input52 == "w" ? "input green" :
         doc.data().input52 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input52) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input53}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input54}" /></td>
@@ -1008,7 +993,7 @@ window.changeTable = changeTable;
         doc.data().input59 == "w" ? "input green" :
         doc.data().input59 == "W"?"input green" :
 
-        isNaN(doc.data().input66) == false?"input green" : 'input'
+        isNaN(doc.data().input59) == false?"input green" : 'input'
             
 }" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input60}" /></td>
@@ -1041,8 +1026,6 @@ window.changeTable = changeTable;
 
         isNaN(doc.data().input66) == false?"input green" : 'input'
             
-
-// tag Pin Color
 }" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input67}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input68}" /></td>
@@ -1104,7 +1087,26 @@ document.getElementById('tableData0').innerHTML += div;
         <input id="input0_2" class="input" type="text" value="${doc.data().input2}" />
     </td>
     <td class="tdinput">1</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input3 == "" ? "input white" :
+
+            doc.data().input3 == "f" ? "input red" :
+            doc.data().input3 == "F"?"input red" :
+                
+            doc.data().input3 == "s" ? "input white"  :
+            doc.data().input3 == "S"?"input white" :
+                
+            doc.data().input3 == "b" ? "input yellow" :
+            doc.data().input3 == "B"?"input yellow" :
+                
+            doc.data().input3 == "w" ? "input green" :
+            doc.data().input3 == "W"?"input green" :
+
+            isNaN(doc.data().input3) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input4}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input5}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input6}" /></td>
@@ -1117,7 +1119,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">2</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input10 == "" ? "input white" :
+
+            doc.data().input10 == "f" ? "input red" :
+            doc.data().input10 == "F"?"input red" :
+                
+            doc.data().input10 == "s" ? "input white"  :
+            doc.data().input10 == "S"?"input white" :
+                
+            doc.data().input10 == "b" ? "input yellow" :
+            doc.data().input10 == "B"?"input yellow" :
+                
+            doc.data().input10 == "w" ? "input green" :
+            doc.data().input10 == "W"?"input green" :
+
+            isNaN(doc.data().input10) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input11}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input12}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input13}" /></td>
@@ -1130,7 +1151,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">3</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input17 == "" ? "input white" :
+
+            doc.data().input17 == "f" ? "input red" :
+            doc.data().input17 == "F"?"input red" :
+                
+            doc.data().input17 == "s" ? "input white"  :
+            doc.data().input17 == "S"?"input white" :
+                
+            doc.data().input17 == "b" ? "input yellow" :
+            doc.data().input17 == "B"?"input yellow" :
+                
+            doc.data().input17 == "w" ? "input green" :
+            doc.data().input17 == "W"?"input green" :
+
+            isNaN(doc.data().input17) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input18}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input19}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input20}" /></td>
@@ -1143,7 +1183,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">4</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input24 == "" ? "input white" :
+
+            doc.data().input24 == "f" ? "input red" :
+            doc.data().input24 == "F"?"input red" :
+                
+            doc.data().input24 == "s" ? "input white"  :
+            doc.data().input24 == "S"?"input white" :
+                
+            doc.data().input24 == "b" ? "input yellow" :
+            doc.data().input24 == "B"?"input yellow" :
+                
+            doc.data().input24 == "w" ? "input green" :
+            doc.data().input24 == "W"?"input green" :
+
+            isNaN(doc.data().input24) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input25}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input26}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input27}" /></td>
@@ -1169,7 +1228,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">6</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input38 == "" ? "input white" :
+
+            doc.data().input38 == "f" ? "input red" :
+            doc.data().input38 == "F"?"input red" :
+                
+            doc.data().input38 == "s" ? "input white"  :
+            doc.data().input38 == "S"?"input white" :
+                
+            doc.data().input38 == "b" ? "input yellow" :
+            doc.data().input38 == "B"?"input yellow" :
+                
+            doc.data().input38 == "w" ? "input green" :
+            doc.data().input38 == "W"?"input green" :
+
+            isNaN(doc.data().input38) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input39}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input40}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input41}" /></td>
@@ -1182,7 +1260,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">7</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input45 == "" ? "input white" :
+
+            doc.data().input45 == "f" ? "input red" :
+            doc.data().input45 == "F"?"input red" :
+                
+            doc.data().input45 == "s" ? "input white"  :
+            doc.data().input45 == "S"?"input white" :
+                
+            doc.data().input45 == "b" ? "input yellow" :
+            doc.data().input45 == "B"?"input yellow" :
+                
+            doc.data().input45 == "w" ? "input green" :
+            doc.data().input45 == "W"?"input green" :
+
+            isNaN(doc.data().input45) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input46}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input47}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input48}" /></td>
@@ -1195,7 +1292,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">8</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input52 == "" ? "input white" :
+
+            doc.data().input52 == "f" ? "input red" :
+            doc.data().input52 == "F"?"input red" :
+                
+            doc.data().input52 == "s" ? "input white"  :
+            doc.data().input52 == "S"?"input white" :
+                
+            doc.data().input52 == "b" ? "input yellow" :
+            doc.data().input52 == "B"?"input yellow" :
+                
+            doc.data().input52 == "w" ? "input green" :
+            doc.data().input52 == "W"?"input green" :
+
+            isNaN(doc.data().input52) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input53}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input54}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input55}" /></td>
@@ -1208,7 +1324,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">9</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input59 == "" ? "input white" :
+
+            doc.data().input59 == "f" ? "input red" :
+            doc.data().input59 == "F"?"input red" :
+                
+            doc.data().input59 == "s" ? "input white"  :
+            doc.data().input59 == "S"?"input white" :
+                
+            doc.data().input59 == "b" ? "input yellow" :
+            doc.data().input59 == "B"?"input yellow" :
+                
+            doc.data().input59 == "w" ? "input green" :
+            doc.data().input59 == "W"?"input green" :
+
+            isNaN(doc.data().input59) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input60}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input61}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input62}" /></td>
@@ -1221,7 +1356,26 @@ document.getElementById('tableData0').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">10</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input66 == "" ? "input white" :
+
+            doc.data().input66 == "f" ? "input red" :
+            doc.data().input66 == "F"?"input red" :
+                
+            doc.data().input66 == "s" ? "input white"  :
+            doc.data().input66 == "S"?"input white" :
+                
+            doc.data().input66 == "b" ? "input yellow" :
+            doc.data().input66 == "B"?"input yellow" :
+                
+            doc.data().input66 == "w" ? "input green" :
+            doc.data().input66 == "W"?"input green" :
+
+            isNaN(doc.data().input66) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input67}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input68}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input69}" /></td>
@@ -1278,7 +1432,26 @@ document.getElementById('tableData1').innerHTML += div;
         <input id="input0_2" class="input" type="text" value="${doc.data().input2}" />
     </td>
     <td class="tdinput">1</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input3 == "" ? "input white" :
+
+            doc.data().input3 == "f" ? "input red" :
+            doc.data().input3 == "F"?"input red" :
+                
+            doc.data().input3 == "s" ? "input white"  :
+            doc.data().input3 == "S"?"input white" :
+                
+            doc.data().input3 == "b" ? "input yellow" :
+            doc.data().input3 == "B"?"input yellow" :
+                
+            doc.data().input3 == "w" ? "input green" :
+            doc.data().input3 == "W"?"input green" :
+
+            isNaN(doc.data().input3) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input4}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input5}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input6}" /></td>
@@ -1291,7 +1464,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">2</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input10 == "" ? "input white" :
+
+            doc.data().input10 == "f" ? "input red" :
+            doc.data().input10 == "F"?"input red" :
+                
+            doc.data().input10 == "s" ? "input white"  :
+            doc.data().input10 == "S"?"input white" :
+                
+            doc.data().input10 == "b" ? "input yellow" :
+            doc.data().input10 == "B"?"input yellow" :
+                
+            doc.data().input10 == "w" ? "input green" :
+            doc.data().input10 == "W"?"input green" :
+
+            isNaN(doc.data().input10) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input11}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input12}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input13}" /></td>
@@ -1304,7 +1496,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">3</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input17 == "" ? "input white" :
+
+            doc.data().input17 == "f" ? "input red" :
+            doc.data().input17 == "F"?"input red" :
+                
+            doc.data().input17 == "s" ? "input white"  :
+            doc.data().input17 == "S"?"input white" :
+                
+            doc.data().input17 == "b" ? "input yellow" :
+            doc.data().input17 == "B"?"input yellow" :
+                
+            doc.data().input17 == "w" ? "input green" :
+            doc.data().input17 == "W"?"input green" :
+
+            isNaN(doc.data().input17) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input18}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input19}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input20}" /></td>
@@ -1317,7 +1528,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">4</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input24 == "" ? "input white" :
+
+            doc.data().input24 == "f" ? "input red" :
+            doc.data().input24 == "F"?"input red" :
+                
+            doc.data().input24 == "s" ? "input white"  :
+            doc.data().input24 == "S"?"input white" :
+                
+            doc.data().input24 == "b" ? "input yellow" :
+            doc.data().input24 == "B"?"input yellow" :
+                
+            doc.data().input24 == "w" ? "input green" :
+            doc.data().input24 == "W"?"input green" :
+
+            isNaN(doc.data().input24) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input25}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input26}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input27}" /></td>
@@ -1330,7 +1560,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">5</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input31 == "" ? "input white" :
+
+            doc.data().input31 == "f" ? "input red" :
+            doc.data().input31 == "F"?"input red" :
+                
+            doc.data().input31 == "s" ? "input white"  :
+            doc.data().input31 == "S"?"input white" :
+                
+            doc.data().input31 == "b" ? "input yellow" :
+            doc.data().input31 == "B"?"input yellow" :
+                
+            doc.data().input31 == "w" ? "input green" :
+            doc.data().input31 == "W"?"input green" :
+
+            isNaN(doc.data().input31) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input32}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input33}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input34}" /></td>
@@ -1343,7 +1592,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">6</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input38 == "" ? "input white" :
+
+            doc.data().input38 == "f" ? "input red" :
+            doc.data().input38 == "F"?"input red" :
+                
+            doc.data().input38 == "s" ? "input white"  :
+            doc.data().input38 == "S"?"input white" :
+                
+            doc.data().input38 == "b" ? "input yellow" :
+            doc.data().input38 == "B"?"input yellow" :
+                
+            doc.data().input38 == "w" ? "input green" :
+            doc.data().input38 == "W"?"input green" :
+
+            isNaN(doc.data().input38) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input39}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input40}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input41}" /></td>
@@ -1356,7 +1624,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">7</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input45 == "" ? "input white" :
+
+            doc.data().input45 == "f" ? "input red" :
+            doc.data().input45 == "F"?"input red" :
+                
+            doc.data().input45 == "s" ? "input white"  :
+            doc.data().input45 == "S"?"input white" :
+                
+            doc.data().input45 == "b" ? "input yellow" :
+            doc.data().input45 == "B"?"input yellow" :
+                
+            doc.data().input45 == "w" ? "input green" :
+            doc.data().input45 == "W"?"input green" :
+
+            isNaN(doc.data().input45) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input46}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input47}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input48}" /></td>
@@ -1369,7 +1656,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">8</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input52 == "" ? "input white" :
+
+            doc.data().input52 == "f" ? "input red" :
+            doc.data().input52 == "F"?"input red" :
+                
+            doc.data().input52 == "s" ? "input white"  :
+            doc.data().input52 == "S"?"input white" :
+                
+            doc.data().input52 == "b" ? "input yellow" :
+            doc.data().input52 == "B"?"input yellow" :
+                
+            doc.data().input52 == "w" ? "input green" :
+            doc.data().input52 == "W"?"input green" :
+
+            isNaN(doc.data().input52) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input53}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input54}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input55}" /></td>
@@ -1382,7 +1688,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">9</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input59 == "" ? "input white" :
+
+            doc.data().input59 == "f" ? "input red" :
+            doc.data().input59 == "F"?"input red" :
+                
+            doc.data().input59 == "s" ? "input white"  :
+            doc.data().input59 == "S"?"input white" :
+                
+            doc.data().input59 == "b" ? "input yellow" :
+            doc.data().input59 == "B"?"input yellow" :
+                
+            doc.data().input59 == "w" ? "input green" :
+            doc.data().input59 == "W"?"input green" :
+
+            isNaN(doc.data().input59) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input60}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input61}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input62}" /></td>
@@ -1395,7 +1720,26 @@ document.getElementById('tableData1').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">10</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input66 == "" ? "input white" :
+
+            doc.data().input66 == "f" ? "input red" :
+            doc.data().input66 == "F"?"input red" :
+                
+            doc.data().input66 == "s" ? "input white"  :
+            doc.data().input66 == "S"?"input white" :
+                
+            doc.data().input66 == "b" ? "input yellow" :
+            doc.data().input66 == "B"?"input yellow" :
+                
+            doc.data().input66 == "w" ? "input green" :
+            doc.data().input66 == "W"?"input green" :
+
+            isNaN(doc.data().input66) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input67}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input68}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input69}" /></td>
@@ -1457,7 +1801,26 @@ document.getElementById('tableData2').innerHTML += div;
         <input id="input0_2" class="input" type="text" value="${doc.data().input2}" />
     </td>
     <td class="tdinput">1</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input3 == "" ? "input white" :
+
+            doc.data().input3 == "f" ? "input red" :
+            doc.data().input3 == "F"?"input red" :
+                
+            doc.data().input3 == "s" ? "input white"  :
+            doc.data().input3 == "S"?"input white" :
+                
+            doc.data().input3 == "b" ? "input yellow" :
+            doc.data().input3 == "B"?"input yellow" :
+                
+            doc.data().input3 == "w" ? "input green" :
+            doc.data().input3 == "W"?"input green" :
+
+            isNaN(doc.data().input3) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input4}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input5}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input6}" /></td>
@@ -1470,7 +1833,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">2</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input10 == "" ? "input white" :
+
+            doc.data().input10 == "f" ? "input red" :
+            doc.data().input10 == "F"?"input red" :
+                
+            doc.data().input10 == "s" ? "input white"  :
+            doc.data().input10 == "S"?"input white" :
+                
+            doc.data().input10 == "b" ? "input yellow" :
+            doc.data().input10 == "B"?"input yellow" :
+                
+            doc.data().input10 == "w" ? "input green" :
+            doc.data().input10 == "W"?"input green" :
+
+            isNaN(doc.data().input10) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input11}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input12}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input13}" /></td>
@@ -1483,7 +1865,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">3</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input17 == "" ? "input white" :
+
+            doc.data().input17 == "f" ? "input red" :
+            doc.data().input17 == "F"?"input red" :
+                
+            doc.data().input17 == "s" ? "input white"  :
+            doc.data().input17 == "S"?"input white" :
+                
+            doc.data().input17 == "b" ? "input yellow" :
+            doc.data().input17 == "B"?"input yellow" :
+                
+            doc.data().input17 == "w" ? "input green" :
+            doc.data().input17 == "W"?"input green" :
+
+            isNaN(doc.data().input17) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input18}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input19}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input20}" /></td>
@@ -1496,7 +1897,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">4</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input24 == "" ? "input white" :
+
+            doc.data().input24 == "f" ? "input red" :
+            doc.data().input24 == "F"?"input red" :
+                
+            doc.data().input24 == "s" ? "input white"  :
+            doc.data().input24 == "S"?"input white" :
+                
+            doc.data().input24 == "b" ? "input yellow" :
+            doc.data().input24 == "B"?"input yellow" :
+                
+            doc.data().input24 == "w" ? "input green" :
+            doc.data().input24 == "W"?"input green" :
+
+            isNaN(doc.data().input24) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input25}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input26}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input27}" /></td>
@@ -1509,7 +1929,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">5</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input31 == "" ? "input white" :
+
+            doc.data().input31 == "f" ? "input red" :
+            doc.data().input31 == "F"?"input red" :
+                
+            doc.data().input31 == "s" ? "input white"  :
+            doc.data().input31 == "S"?"input white" :
+                
+            doc.data().input31 == "b" ? "input yellow" :
+            doc.data().input31 == "B"?"input yellow" :
+                
+            doc.data().input31 == "w" ? "input green" :
+            doc.data().input31 == "W"?"input green" :
+
+            isNaN(doc.data().input31) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input32}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input33}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input34}" /></td>
@@ -1522,7 +1961,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">6</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input38 == "" ? "input white" :
+
+            doc.data().input38 == "f" ? "input red" :
+            doc.data().input38 == "F"?"input red" :
+                
+            doc.data().input38 == "s" ? "input white"  :
+            doc.data().input38 == "S"?"input white" :
+                
+            doc.data().input38 == "b" ? "input yellow" :
+            doc.data().input38 == "B"?"input yellow" :
+                
+            doc.data().input38 == "w" ? "input green" :
+            doc.data().input38 == "W"?"input green" :
+
+            isNaN(doc.data().input38) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input39}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input40}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input41}" /></td>
@@ -1535,7 +1993,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">7</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input45 == "" ? "input white" :
+
+            doc.data().input45 == "f" ? "input red" :
+            doc.data().input45 == "F"?"input red" :
+                
+            doc.data().input45 == "s" ? "input white"  :
+            doc.data().input45 == "S"?"input white" :
+                
+            doc.data().input45 == "b" ? "input yellow" :
+            doc.data().input45 == "B"?"input yellow" :
+                
+            doc.data().input45 == "w" ? "input green" :
+            doc.data().input45 == "W"?"input green" :
+
+            isNaN(doc.data().input45) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input46}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input47}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input48}" /></td>
@@ -1548,7 +2025,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">8</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input52 == "" ? "input white" :
+
+            doc.data().input52 == "f" ? "input red" :
+            doc.data().input52 == "F"?"input red" :
+                
+            doc.data().input52 == "s" ? "input white"  :
+            doc.data().input52 == "S"?"input white" :
+                
+            doc.data().input52 == "b" ? "input yellow" :
+            doc.data().input52 == "B"?"input yellow" :
+                
+            doc.data().input52 == "w" ? "input green" :
+            doc.data().input52 == "W"?"input green" :
+
+            isNaN(doc.data().input52) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input53}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input54}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input55}" /></td>
@@ -1561,7 +2057,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">9</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input59 == "" ? "input white" :
+
+            doc.data().input59 == "f" ? "input red" :
+            doc.data().input59 == "F"?"input red" :
+                
+            doc.data().input59 == "s" ? "input white"  :
+            doc.data().input59 == "S"?"input white" :
+                
+            doc.data().input59 == "b" ? "input yellow" :
+            doc.data().input59 == "B"?"input yellow" :
+                
+            doc.data().input59 == "w" ? "input green" :
+            doc.data().input59 == "W"?"input green" :
+
+            isNaN(doc.data().input59) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input60}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input61}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input62}" /></td>
@@ -1574,7 +2089,26 @@ document.getElementById('tableData2').innerHTML += div;
     <tr align="center">
 
     <td class="tdinput">10</td>
-    <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
+    <td class="tdinput"><input id="input2" class="${      
+                
+        doc.data().input66 == "" ? "input white" :
+
+            doc.data().input66 == "f" ? "input red" :
+            doc.data().input66 == "F"?"input red" :
+                
+            doc.data().input66 == "s" ? "input white"  :
+            doc.data().input66 == "S"?"input white" :
+                
+            doc.data().input66 == "b" ? "input yellow" :
+            doc.data().input66 == "B"?"input yellow" :
+                
+            doc.data().input66 == "w" ? "input green" :
+            doc.data().input66 == "W"?"input green" :
+
+            isNaN(doc.data().input66) == false?"input green" : 'input'
+                
+    
+}" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
     <td><input id="input3" class="input" type="text" value="${doc.data().input67}" /></td>
     <td><input id="input4" class="input" type="text" value="${doc.data().input68}" /></td>
     <td><input id="input5" class="input" type="text" value="${doc.data().input69}" /></td>
@@ -1690,7 +2224,26 @@ document.getElementById('tableData3').innerHTML += div;
             <input id="input0_2" class="input" type="text" value="${doc.data().input2}" />
         </td>
         <td class="tdinput">1</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input3 == "" ? "input white" :
+    
+                doc.data().input3 == "f" ? "input red" :
+                doc.data().input3 == "F"?"input red" :
+                    
+                doc.data().input3 == "s" ? "input white"  :
+                doc.data().input3 == "S"?"input white" :
+                    
+                doc.data().input3 == "b" ? "input yellow" :
+                doc.data().input3 == "B"?"input yellow" :
+                    
+                doc.data().input3 == "w" ? "input green" :
+                doc.data().input3 == "W"?"input green" :
+    
+                isNaN(doc.data().input3) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input3}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input4}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input5}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input6}" /></td>
@@ -1703,7 +2256,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">2</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input10 == "" ? "input white" :
+    
+                doc.data().input10 == "f" ? "input red" :
+                doc.data().input10 == "F"?"input red" :
+                    
+                doc.data().input10 == "s" ? "input white"  :
+                doc.data().input10 == "S"?"input white" :
+                    
+                doc.data().input10 == "b" ? "input yellow" :
+                doc.data().input10 == "B"?"input yellow" :
+                    
+                doc.data().input10 == "w" ? "input green" :
+                doc.data().input10 == "W"?"input green" :
+    
+                isNaN(doc.data().input10) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input10}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input11}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input12}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input13}" /></td>
@@ -1716,7 +2288,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">3</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input17 == "" ? "input white" :
+    
+                doc.data().input17 == "f" ? "input red" :
+                doc.data().input17 == "F"?"input red" :
+                    
+                doc.data().input17 == "s" ? "input white"  :
+                doc.data().input17 == "S"?"input white" :
+                    
+                doc.data().input17 == "b" ? "input yellow" :
+                doc.data().input17 == "B"?"input yellow" :
+                    
+                doc.data().input17 == "w" ? "input green" :
+                doc.data().input17 == "W"?"input green" :
+    
+                isNaN(doc.data().input17) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input17}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input18}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input19}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input20}" /></td>
@@ -1729,7 +2320,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">4</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input24 == "" ? "input white" :
+    
+                doc.data().input24 == "f" ? "input red" :
+                doc.data().input24 == "F"?"input red" :
+                    
+                doc.data().input24 == "s" ? "input white"  :
+                doc.data().input24 == "S"?"input white" :
+                    
+                doc.data().input24 == "b" ? "input yellow" :
+                doc.data().input24 == "B"?"input yellow" :
+                    
+                doc.data().input24 == "w" ? "input green" :
+                doc.data().input24 == "W"?"input green" :
+    
+                isNaN(doc.data().input24) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input24}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input25}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input26}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input27}" /></td>
@@ -1742,7 +2352,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">5</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input31 == "" ? "input white" :
+    
+                doc.data().input31 == "f" ? "input red" :
+                doc.data().input31 == "F"?"input red" :
+                    
+                doc.data().input31 == "s" ? "input white"  :
+                doc.data().input31 == "S"?"input white" :
+                    
+                doc.data().input31 == "b" ? "input yellow" :
+                doc.data().input31 == "B"?"input yellow" :
+                    
+                doc.data().input31 == "w" ? "input green" :
+                doc.data().input31 == "W"?"input green" :
+    
+                isNaN(doc.data().input31) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input31}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input32}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input33}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input34}" /></td>
@@ -1755,7 +2384,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">6</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input38 == "" ? "input white" :
+    
+                doc.data().input38 == "f" ? "input red" :
+                doc.data().input38 == "F"?"input red" :
+                    
+                doc.data().input38 == "s" ? "input white"  :
+                doc.data().input38 == "S"?"input white" :
+                    
+                doc.data().input38 == "b" ? "input yellow" :
+                doc.data().input38 == "B"?"input yellow" :
+                    
+                doc.data().input38 == "w" ? "input green" :
+                doc.data().input38 == "W"?"input green" :
+    
+                isNaN(doc.data().input38) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input38}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input39}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input40}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input41}" /></td>
@@ -1768,7 +2416,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">7</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input45 == "" ? "input white" :
+    
+                doc.data().input45 == "f" ? "input red" :
+                doc.data().input45 == "F"?"input red" :
+                    
+                doc.data().input45 == "s" ? "input white"  :
+                doc.data().input45 == "S"?"input white" :
+                    
+                doc.data().input45 == "b" ? "input yellow" :
+                doc.data().input45 == "B"?"input yellow" :
+                    
+                doc.data().input45 == "w" ? "input green" :
+                doc.data().input45 == "W"?"input green" :
+    
+                isNaN(doc.data().input45) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input45}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input46}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input47}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input48}" /></td>
@@ -1781,7 +2448,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">8</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input52 == "" ? "input white" :
+    
+                doc.data().input52 == "f" ? "input red" :
+                doc.data().input52 == "F"?"input red" :
+                    
+                doc.data().input52 == "s" ? "input white"  :
+                doc.data().input52 == "S"?"input white" :
+                    
+                doc.data().input52 == "b" ? "input yellow" :
+                doc.data().input52 == "B"?"input yellow" :
+                    
+                doc.data().input52 == "w" ? "input green" :
+                doc.data().input52 == "W"?"input green" :
+    
+                isNaN(doc.data().input52) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input52}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input53}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input54}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input55}" /></td>
@@ -1794,7 +2480,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">9</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input59 == "" ? "input white" :
+    
+                doc.data().input59 == "f" ? "input red" :
+                doc.data().input59 == "F"?"input red" :
+                    
+                doc.data().input59 == "s" ? "input white"  :
+                doc.data().input59 == "S"?"input white" :
+                    
+                doc.data().input59 == "b" ? "input yellow" :
+                doc.data().input59 == "B"?"input yellow" :
+                    
+                doc.data().input59 == "w" ? "input green" :
+                doc.data().input59 == "W"?"input green" :
+    
+                isNaN(doc.data().input59) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input59}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input60}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input61}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input62}" /></td>
@@ -1807,7 +2512,26 @@ document.getElementById('tableData3').innerHTML += div;
         <tr align="center">
     
         <td class="tdinput">10</td>
-        <td class="tdinput"><input id="input2" class="input" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
+        <td class="tdinput"><input id="input2" class="${      
+                
+            doc.data().input66 == "" ? "input white" :
+    
+                doc.data().input66 == "f" ? "input red" :
+                doc.data().input66 == "F"?"input red" :
+                    
+                doc.data().input66 == "s" ? "input white"  :
+                doc.data().input66 == "S"?"input white" :
+                    
+                doc.data().input66 == "b" ? "input yellow" :
+                doc.data().input66 == "B"?"input yellow" :
+                    
+                doc.data().input66 == "w" ? "input green" :
+                doc.data().input66 == "W"?"input green" :
+    
+                isNaN(doc.data().input66) == false?"input green" : 'input'
+                    
+        
+    }" type="text" value="${doc.data().input66}" onchange="tagPinColor(event)" maxlength="1"/></td>
         <td><input id="input3" class="input" type="text" value="${doc.data().input67}" /></td>
         <td><input id="input4" class="input" type="text" value="${doc.data().input68}" /></td>
         <td><input id="input5" class="input" type="text" value="${doc.data().input69}" /></td>
